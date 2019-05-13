@@ -1,0 +1,26 @@
+{
+  "name": "sherpa",
+  "version": "1.0.0",
+  "description": "![Sherpa](https://raw.githubusercontent.com/agims/sherpa/master/screenshot.png) # Sherpa - A Boilerplate WordPress Theme A SCSS-flavored, Twitter Bootstrap-based boilerplate for developing WordPress themes.",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "deep-extend": "^0.6.0",
+    "imagemin": "^5.3.1",
+    "imagemin-pngcrush": "^5.1.0",
+    "minimatch": "^3.0.4",
+    "postcss": "^6.0.23",
+    "postcss-cli-simple": "^1.0.4",
+    "randomatic": "^3.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path  --source-map  scss scss/style.scss css/style.css --output-style compressed",
+    "prefix": "postcss css/style.css --use autoprefixer -r",
+    "watch-css": "nodemon -e scss css -x \"npm run build-css\"",
+    "start": "livereload",
+    "build-images": "imagemin --plugin=pngcrush img/* --out-dir=img/build",
+    "watch-img": "nodemon -e img -x \"npm run build-images\""
+  },
+  "author": "",
+  "license": "ISC"
+}
