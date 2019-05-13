@@ -1,0 +1,32 @@
+// Include Variables
+@import 'sherpa-variables';
+@import 'bootstrap-variables';
+
+// Include Bootstrap
+@import 'bootstrap';
+
+// Include styles needed by WordPress for the editor to work right
+@import 'wp-core';
+
+// Non-responsiveness Setup - uncomment if this is going to be a non-responsive site
+//@import 'non-responsive';
+
+// Are you not using one of these plugins?  Just comment the import out.
+@import 'jquery.bxslider';
+@import 'jquery.colorbox';
+
+// Special components
+@import 'sherpa-mixins';
+@import 'sherpa-navbar';
+@import 'sherpa-buttons';
+@import 'sherpa-general';
+@import 'sherpa-socialmedia';
+
+// Sections
+@import 'sherpa-header';
+@import 'sherpa-main';
+@import 'sherpa-sidebar';
+@import 'sherpa-footer';
+
+// Styling Specifically for the home page
+@import 'sherpa-home';

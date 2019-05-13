@@ -1,0 +1,77 @@
+// Sherpa Variables
+
+// Theme Colors
+$black:											#000000;
+$gray-md:										#999999;
+$white:											#FFFFFF;
+$yellow:                                        #F4D45B;
+
+
+// Social Media Colors
+$color-facebook:								#3B5998; 
+$color-twitter:									#4099FF;
+$color-rss:										#FF6600;
+$color-googleplus:								#dd4b39;
+$color-pinterest:								#BC061C;
+$color-linkedin:								#0077B5;
+$color-youtube:									#FF0000;
+$color-phone:									$color-rss;
+
+
+// Defaults
+$sherpa-primary-color:							$black;
+$sherpa-secondary-color:						$white;
+$sherpa-tertiary-color:							$gray-md;
+
+$sherpa-alt-font-family:						sans-serif;
+
+// Elements
+/// Sherpa Navbar
+$sherpa-nav-bg:									$sherpa-secondary-color;
+
+$sherpa-navbar-default-bg:						transparent;
+$sherpa-navbar-default-border:					transparent;
+$sherpa-navbar-font-family:						$sherpa-alt-font-family;
+
+$sherpa-navbar-default-brand-color:				$white;
+$sherpa-navbar-default-brand-hover-color:		$white;
+$sherpa-navbar-default-brand-hover-bg:			transparent;
+
+$sherpa-navbar-default-color:					$black;
+
+$sherpa-navbar-default-link-color:				$sherpa-navbar-default-color;
+
+$sherpa-navbar-default-link-hover-color:		$white;
+$sherpa-navbar-default-link-hover-bg:			$sherpa-primary-color;
+
+$sherpa-navbar-default-link-active-color:		$sherpa-navbar-default-link-hover-color;
+$sherpa-navbar-default-link-active-bg:			$sherpa-navbar-default-link-hover-bg;
+
+$sherpa-navbar-default-link-disabled-color:		lighten($sherpa-navbar-default-link-hover-color,10%);
+$sherpa-navbar-default-link-disabled-bg:		lighten($sherpa-navbar-default-link-hover-bg,10%);
+
+$sherpa-navbar-right-link-color:				$white;
+
+$sherpa-navbar-default-toggle-border-color:		$white;
+$sherpa-navbar-default-toggle-hover-bg:			transparent;
+$sherpa-navbar-default-toggle-icon-bar-bg:		$white;
+
+
+// Testimonials
+/// Testimonial A
+$testimonial-a: lighten($black, 45%);
+$testimonial-a-accent: lighten($testimonial-a, 10%);
+$testimonial-a-color: $black;
+$testimonial-a-border-color: $testimonial-a-accent;
+
+/// Testimonial B
+$testimonial-b: lighten($black, 75%);
+$testimonial-b-accent: lighten($testimonial-b, 10%);
+$testimonial-b-color: $black;
+$testimonial-b-border-color: $testimonial-b-accent;
+
+
+// Social Media Buttons
+$sm-color: $white;
+$sm-hover-color: $sm-color;
+$singlecolor: $sherpa-primary-color;
